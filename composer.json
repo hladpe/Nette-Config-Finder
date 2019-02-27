@@ -1,0 +1,16 @@
+{
+    "name": "hladpe/nette-config-finder",
+    "description": "Automatically search for configuration files across application.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Petr Hladík",
+            "email": "hladpe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "nette/bootstrap": "^2.4",
+        "nette/caching": "^3.0"
+    }
+}

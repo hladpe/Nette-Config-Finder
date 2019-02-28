@@ -8,19 +8,19 @@ The configuration files must be set up in the configuration container before the
 
 Instead of using static linking of configuration files:
 ```php
-...
+// ~~~
 $configurator->addConfig(__DIR__ . '/config/config.neon');
 $configurator->addConfig(__DIR__ . '/config/config.local.neon');
-...
+// ~~~
 ```
 
 We can use dynamic linking of the searched configuration files:
 ```php
-...
+// ~~~
 foreach (getNetteConfigs() as $path) {
 	$configurator->addConfig($path);
 }
-...
+// ~~~
 		
 function getNetteConfigs(): array
 {
@@ -36,11 +36,11 @@ function getNetteConfigs(): array
 
 The second parameter of the `\Hladpe\NetteConfigFinder\Finder` is an optional instance of IStorage used to store searched files into cache. We can use Finder without the second parameter of course:
 ```php
-...
+// ~~~
 foreach (getNetteConfigs() as $path) {
 	$configurator->addConfig($path);
 }
-...
+// ~~~
 		
 function getNetteConfigs(): array
 {
@@ -54,11 +54,11 @@ function getNetteConfigs(): array
 
 We can specify multiple search directories, such as search for configuration files in `vendor` packages:
 ```php
-...
+// ~~~
 foreach (getNetteConfigs() as $path) {
 	$configurator->addConfig($path);
 }
-...
+// ~~~
 		
 function getNetteConfigs(): array
 {

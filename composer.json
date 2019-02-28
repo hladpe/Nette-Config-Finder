@@ -12,5 +12,10 @@
         "php": ">=7.1",
         "nette/bootstrap": "^2.4",
         "nette/caching": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hladpe\\NetteConfigFinder": "src/"
+        }
     }
 }

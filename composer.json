@@ -11,6 +11,6 @@
     "require": {
         "php": ">=7.1",
         "nette/bootstrap": "^2.4",
-        "nette/caching": "^3.0"
+        "nette/caching": "^2.5"
     }
 }

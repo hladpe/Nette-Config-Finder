@@ -1,4 +1,4 @@
-# Nette Config Finder
+# 🤖 Nette Config Finder
 
 🤖Automatically search for configuration (neon) files across application.\
 

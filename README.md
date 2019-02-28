@@ -1,6 +1,6 @@
 # 🤖 Nette Config Finder
 
-🤖Automatically search for configuration (neon) files across application.\
+Automatically search for configuration (neon) files across application.\
 
 Usage
 -----
